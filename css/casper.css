@@ -1,0 +1,36 @@
+root {
+  --secondary-color: #2c4755;
+  --section-padding: 60px;
+  --section-background: #f6f6f6;
+  --main-duration: 0.5s;
+  --main-margin: 60px;
+  --main-color: #19c8fa;
+  --transparent-color: rgb(15 116 143 / 70%);
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header {
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.header .obations {
+  display: flex;
+}
+.header .obations ul li {
+  flex-wrap: wrap-reverse;
+  list-style: none;
+  display: flex;
+}
+.header .obations ul li a {
+  flex-wrap: wrap;
+  color: white;
+}
