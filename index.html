@@ -3,8 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- main css -->
-    <link rel="stylesheet" href="css/casper.css" />
     <!-- normaliz -->
     <link rel="stylesheet" href="css/normalize.css" />
     <!-- for logos -->
@@ -12,30 +10,41 @@
       src="https://kit.fontawesome.com/8aa9b7a77e.js"
       crossorigin="anonymous"
     ></script>
+    <!-- main css -->
+    <link rel="stylesheet" href="css/casper.css" />
+    <!-- font stayl -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@700;900&family=Jomhuria&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,500;1,700;1,800&family=Work+Sans:wght@100;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <title>Casper</title>
   </head>
   <body>
-    <div class="header">
+    <header>
       <div class="container">
-        <i class="fa-solid fa-chevron-left"></i>
-        <i class="fa-solid fa-angle-right"></i>
-        <div class="head">
-          <img class="logo" src="images/logo.png" alt="" />
-          <div class="obations">
-            <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-            <ul>
-              <li><a href="#home">Home</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#pricing">Pricing</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-        <hr />
-        <div class="intro">
-          <h2>Hello World! We Are Kasper We Make Art.</h2>
+        <img class="logo" src="images/logo.png" alt="" />
+        <nav>
+          <i class="fa-solid fa-bars toggel-meno"></i>
+          <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <span></span>
+          <i class="fa-solid fa-magnifying-glass fa-lg logo-var"></i>
+        </nav>
+      </div>
+    </header>
+    <div class="landing">
+      <div class="overlay"></div>
+      <div class="intro">
+        <div class="container">
+          <h2 class="frist-titel">Hello World! We Are Kasper We Make Art.</h2>
           <p>
             Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
             Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
@@ -43,7 +52,455 @@
             Mauris blandit aliquet elit, eget tincidunt.
           </p>
         </div>
+        <div class="boto">
+          <i class="fa-solid fa-chevron-left left"></i>
+          <i class="fa-solid fa-angle-right right"></i>
+        </div>
+        <div class="bullet">
+          <div>
+            <i class="fa-regular fa-circle"></i>
+            <i class="fa-solid fa-circle"></i>
+            <i class="fa-regular fa-circle"></i>
+          </div>
+        </div>
       </div>
     </div>
+    <!-- SERVICES -->
+    <div class="services">
+      <div class="container">
+        <div class="head">
+          <h2 class="titles">SERVICES</h2>
+          <p class="paragraghs">
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
+          </p>
+        </div>
+        <div class="serv">
+          <div>
+            <i class="fa-solid fa-tv fa-2xl"></i>
+            <div class="box-serv">
+              <h3 class="title-h3">Vorem amet intuitive</h3>
+              <p class="paragraghs">
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur aliquet quam.
+              </p>
+            </div>
+          </div>
+          <div>
+            <i class="fa-solid fa-book fa-2xl"></i>
+            <div class="box-serv">
+              <h3 class="title-h3">Vorem amet intuitive</h3>
+              <p class="paragraghs">
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur aliquet quam.
+              </p>
+            </div>
+          </div>
+          <div>
+            <i class="fa-solid fa-business-time fa-2xl"></i>
+            <div class="box-serv">
+              <h3 class="title-h3">Vorem amet intuitive</h3>
+              <p class="paragraghs">
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur aliquet quam.
+              </p>
+            </div>
+          </div>
+          <div>
+            <i class="fa-solid fa-shop fa-2xl"></i>
+            <div class="box-serv">
+              <h3 class="title-h3">Vorem amet intuitive</h3>
+              <p class="paragraghs">
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur aliquet quam.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- OUR DESIGN COMES WITH... -->
+    <div class="design">
+      <div class="overlay">
+        <div class="container">
+          <div class="des-imge"></div>
+          <div class="des-text">
+            <h2>OUR DESIGN COMES WITH...</h2>
+            <ul>
+              <li><i class="fa-solid fa-tv pading"></i> Responsive Design</li>
+              <li>
+                <i class="fa-solid fa-tv pading"></i>Modern And Clean Design
+              </li>
+              <li><i class="fa-solid fa-tv pading"></i>Clean Code</li>
+              <li><i class="fa-solid fa-tv pading"></i>Browser Friendly</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="protfolio">
+      <div class="container">
+        <div class="bead">
+          <h2 class="titles">PORTFOLIO</h2>
+          <p class="paragraghs">
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
+          </p>
+        </div>
+        <ul>
+          <li>All</li>
+          <li>App</li>
+          <li>Photo</li>
+          <li>Print</li>
+          <li>Web</li>
+        </ul>
+      </div>
+    </div>
+    <!-- our web imges -->
+    <div class="img-sec">
+      <div class="box-big">
+        <div class="box-small">
+          <img src="/images/shuffle-01.jpg" alt="" />
+          <div class="caption">
+            <h3>here is a title img</h3>
+            <p>here is a paragraph</p>
+          </div>
+        </div>
+        <div class="box-small">
+          <img src="/images/shuffle-02.jpg" alt="" />
+          <div class="caption">
+            <h3>here is a title img</h3>
+            <p>here is a paragraph</p>
+          </div>
+        </div>
+        <div class="box-small">
+          <img src="/images/shuffle-03.jpg" alt="" />
+          <div class="caption">
+            <h3>here is a title img</h3>
+            <p>here is a paragraph</p>
+          </div>
+        </div>
+        <div class="box-small">
+          <img src="/images/shuffle-04.jpg" alt="" />
+          <div class="caption">
+            <h3>here is a title img</h3>
+            <p>here is a paragraph</p>
+          </div>
+        </div>
+        <div class="box-small">
+          <img src="/images/shuffle-05.jpg" alt="" />
+          <div class="caption">
+            <h3>here is a title img</h3>
+            <p>here is a paragraph</p>
+          </div>
+        </div>
+        <div class="box-small">
+          <img src="/images/shuffle-06.jpg" alt="" />
+          <div class="caption">
+            <h3>here is a title img</h3>
+            <p>here is a paragraph</p>
+          </div>
+        </div>
+        <div class="box-small">
+          <img src="/images/shuffle-07.jpg" alt="" />
+          <div class="caption">
+            <h3>here is a title img</h3>
+            <p>here is a paragraph</p>
+          </div>
+        </div>
+        <div class="box-small">
+          <img src="/images/shuffle-08.jpg" alt="" />
+          <div class="caption">
+            <h3>here is a title img</h3>
+            <p>here is a paragraph</p>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="more">More</a>
+    </div>
+    <!-- start video saction -->
+    <div class="video">
+      <video
+        src="video/awesome-video.mp4"
+        type="video/mp4"
+        autoplay
+        muted
+        loop
+      ></video>
+      <div class="video-text">
+        <h3>SUPER AWESOME VIDEO HERE</h3>
+        <p>Its All You Need</p>
+        <button>See More</button>
+      </div>
+    </div>
+    <!-- start about us -->
+    <div class="about">
+      <div class="container">
+        <div class="head">
+          <h3 class="titles">ABOUT US</h3>
+          <p class="paragraghs">
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
+          </p>
+        </div>
+        <img src="/images/about.png" class="about-img" />
+      </div>
+    </div>
+    <!-- start stats -->
+    <div class="stats">
+      <div class="container">
+        <div class="box">
+          <i class="fa-solid fa-mug-hot"></i>
+          <div class="number">1.236</div>
+          <p>Coffee Drinks</p>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-folder"></i>
+          <div class="number">256</div>
+          <p>Completed Projects</p>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-envelope"></i>
+          <div class="number">1,743</div>
+          <p>Mail Sents</p>
+        </div>
+        <div class="box">
+          <i class="fa-sharp fa-solid fa-trophy"></i>
+          <div class="number">17</div>
+          <p>Awards Received</p>
+        </div>
+      </div>
+    </div>
+    <!-- START SKILLS -->
+    <div class="skills-main">
+      <div class="container">
+        <div class="testimonials">
+          <h3>TESTIMONIALS</h3>
+          <p class="paragraghs marg">
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
+          </p>
+          <div class="contant">
+            <img src="/images/skills-01.jpg" alt="" />
+            <div class="person-text">
+              <p>
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt.
+              </p>
+              <p>John Doe, CEO</p>
+            </div>
+          </div>
+          <div class="contant">
+            <img src="/images/skills-02.jpg" alt="" />
+            <div class="person-text">
+              <p>
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt.
+              </p>
+              <p>John Doe, CEO</p>
+            </div>
+          </div>
+          <ul class="bullet">
+            <li></li>
+            <li class="spa"></li>
+            <li></li>
+          </ul>
+        </div>
+        <div class="skills">
+          <h3>SKILLS</h3>
+          <p class="paragraghs marg">
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
+          </p>
+          <div class="pore-holder">
+            <div class="pore-skils">
+              <h4>ADOBE</h4>
+              <div class="prog">
+                <span style="width: 90%" data-pogress="90%"></span>
+              </div>
+            </div>
+            <div class="pore-skils">
+              <h4>HTML & CSS</h4>
+              <div class="prog">
+                <span style="width: 85%" data-pogress="85%"></span>
+              </div>
+            </div>
+            <div class="pore-skils">
+              <h4>JAVASCRIPT</h4>
+              <div class="prog">
+                <span style="width: 80%" data-pogress="80%"></span>
+              </div>
+            </div>
+            <div class="pore-skils">
+              <h4>PHP</h4>
+              <div class="prog">
+                <span style="width: 90%" data-pogress="90%"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- img -->
+    <div class="img-quate">
+      <div class="container">
+        <p>
+          accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet
+          elit,tincidunt.
+        </p>
+        <span>John Doe</span>
+      </div>
+    </div>
+    <!-- PRICING -->
+    <div class="pricing">
+      <div class="container">
+        <div class="main-heding">
+          <h2 class="titles">PRICING</h2>
+          <p class="paragraghs">
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
+          </p>
+        </div>
+        <div class="plans">
+          <div class="plan">
+            <div class="head">
+              <h3>BASIC</h3>
+              <span>39</span>
+            </div>
+            <ul>
+              <li>Feature No 1</li>
+              <li>Extra Feature</li>
+              <li>Extra Feature No 2</li>
+              <li>Feature</li>
+            </ul>
+            <div class="foot"><a href="#">buy now</a></div>
+          </div>
+          <div class="plan">
+            <div class="head">
+              <h3>PLATINUM</h3>
+              <span>40</span>
+            </div>
+            <ul>
+              <li>Feature No 1</li>
+              <li>Extra Feature</li>
+              <li>Extra Feature No 2</li>
+              <li>Feature</li>
+            </ul>
+            <div class="foot"><a href="#">buy now</a></div>
+          </div>
+          <div class="plan">
+            <div class="head">
+              <h3>PREMIUM</h3>
+              <span>70</span>
+            </div>
+            <ul>
+              <li>Feature No 1</li>
+              <li>Extra Feature</li>
+              <li>Extra Feature No 2</li>
+              <li>Feature</li>
+            </ul>
+            <div class="foot"><a href="#">buy now</a></div>
+          </div>
+          <div class="plan">
+            <div class="head">
+              <h3>PRO</h3>
+              <span>29</span>
+            </div>
+            <ul>
+              <li>Feature No 1</li>
+              <li>Extra Feature</li>
+              <li>Extra Feature No 2</li>
+              <li>Feature</li>
+            </ul>
+            <div class="foot"><a href="#">buy now</a></div>
+          </div>
+        </div>
+        <div class="request">
+          <p>Contact us if you have special request</p>
+          <a href="#">Contact us</a>
+        </div>
+      </div>
+    </div>
+    <div class="email">
+      <div class="container">
+        <form action="">
+          <i class="fa-regular fa-envelope"></i>
+          <input type="email" name="mail" placeholder="your Email" />
+          <input type="submit" value="subscribe" />
+        </form>
+        <p>
+          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+          Mauris blan dit aliquet elit, eget tincidunt.
+        </p>
+      </div>
+    </div>
+    <!-- CONTACT US -->
+    <div class="contact">
+      <div class="container">
+        <h2 class="titles">CONTACT US</h2>
+        <p class="paragraghs">
+          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+          Mauris blandit aliquet elit, eget tincidunt.
+        </p>
+        <div class="content">
+          <div class="info">
+            <h4>GET IN TOUCH</h4>
+            <span>+00 123.456.789</span>
+            <span>+00 123.456.789</span>
+            <h4>WHERE WE ARE</h4>
+            <address>
+              Awesome Address 17
+              <br />
+              New York, NYC
+              <br />
+              123-4567-890
+              <br />
+              USA
+            </address>
+          </div>
+          <form action="">
+            <input
+              class="main-imput"
+              type="text"
+              name="name"
+              placeholder="Your Name"
+            />
+            <input
+              class="main-imput"
+              type="email"
+              name="mail"
+              placeholder="Your Email"
+            />
+            <textarea
+              class="main-imput"
+              name="massages"
+              placeholder="Your Massages"
+            ></textarea>
+            <input type="submit" value="send message" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <img src="/images/logo.png" />
+        <div class="text-cont">
+          <h2>WE ARE SOCIAL</h2>
+
+          <ul>
+            <li><i class="fa-brands fa-facebook"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-solid fa-house"></i></li>
+            <li><i class="fa-brands fa-linkedin"></i></li>
+          </ul>
+          <p>© 2021 <span>Kasper</span> All Right Reserved</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
